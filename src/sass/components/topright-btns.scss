@@ -1,0 +1,105 @@
+.nav-buttons {
+
+    width: 6.5vw;
+    // justify-content: center;
+    display: flex;
+    align-items: center;
+    
+
+
+    &-signin {
+        margin-right: 2rem;
+
+
+
+
+        &__btn {
+
+
+            /* the :link and :visited refer to the pseudoclass of .btn, reffering to its state (eg. hover) */
+            &:link,
+            &:visited {
+            // text-transform: uppercase;
+            text-decoration: none;
+            font-weight:bold;
+            color: black;
+            
+
+            font-size: 1.6rem;
+
+            /* always make inline-block if adding padding to elements */
+            display: inline-block;  
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            // &-txt {
+            //     text-transform: uppercase;
+            //     text-decoration: none;
+            // }
+
+            
+        }
+
+    
+
+
+    }
+
+    
+    
+    
+    &-cart {
+        margin-right: 2rem;
+
+
+
+
+
+
+
+
+        &__btn {
+
+
+        }
+
+
+
+        &__btn-icon {
+
+            svg {
+                width: 2.5rem;
+                // margin-top: 2px;
+                // margin-right: 10px;
+        
+            }
+
+        }
+
+    }
+
+}

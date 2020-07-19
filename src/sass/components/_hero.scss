@@ -1,0 +1,100 @@
+
+
+.hero-grid-left {
+    display: grid;
+    grid-template-columns: minmax(120px, max-content) 1fr;
+    align-items: center;
+    justify-content: center;
+    // width: 30%;
+    // place-items: center;
+
+
+    img {
+        max-width: 400px;
+        min-width: 215px;
+        width: 100%;
+        height: auto;
+        // vertical-align: bottom;
+
+    }
+
+    &__txt {
+        width: 100%;
+        height: 100%;
+        background-color: orange;
+        display:table;
+
+        h2 {
+            text-align: center;
+            vertical-align:middle; /*middle centred*/
+            display:table-cell; /*acts like a table cell*/
+    
+        }
+    
+
+    }
+
+
+
+
+  }
+
+  .hero-grid-right {
+
+        margin-left: 2rem;
+
+
+
+
+        &__txt {
+            width: 100%;
+            height: auto;
+            background-color: orange;
+
+        }
+
+
+
+    img {
+        max-width: 400px;
+        width: 100%;
+        height: auto;
+        // transform: scale(.8);
+        // vertical-align: bottom;
+
+    }
+
+
+      &__img {
+        //   background-image: url(../../img/maskgirl_hero.png);
+        //   background-size: cover;
+        //   background-position: top;
+
+
+
+        // background-size: contain;
+        // background-repeat: no-repeat;
+        // background-position: top;
+        // width: 100%;
+        // height: 0;
+
+        // &__hide {
+        //     visibility: hidden;
+        // }
+
+
+
+
+
+
+
+
+
+        //   min-height: 20rem;
+        //   min-width: 40rem;
+      }
+
+
+  }
+
+

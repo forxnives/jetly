@@ -21,11 +21,21 @@
         display: flex;
 
 
+        svg {
+            width: 2.5rem;
+            margin-top: 2px;
+            margin-right: 10px;
+    
+        }
+        
+
+
 
 
         &__input {
             border:none;
-            width: 65vw;
+            width: 60vw;
+            // width: auto;
             background: none;
             outline: none;
             padding-left:2rem;
@@ -41,12 +51,12 @@
         }
     }
 
-    &-search svg {
-        width: 2.5rem;
-        margin-top: 2px;
-        margin-right: 10px;
+    // &-search svg {
+    //     width: 2.5rem;
+    //     margin-top: 2px;
+    //     margin-right: 10px;
 
-    }
+    // }
 
 }
 
