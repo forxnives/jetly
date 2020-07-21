@@ -1,0 +1,43 @@
+.popular-heading {
+    font-size: 1.6rem;
+}
+
+// .popular-cards {
+
+// }
+
+.popular-list {
+    
+
+    &-item {
+
+        text-align: center;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+
+
+        position: relative;
+
+
+
+        &__image {
+            img {
+                max-width: 200px;
+                min-width: 100px;
+                width: 100%;
+                height: auto;
+            }
+
+
+        }
+
+        &__info {
+
+        }
+
+
+    }
+}
