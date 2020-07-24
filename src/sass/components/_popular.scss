@@ -1,43 +1,85 @@
 .popular-heading {
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
-// .popular-cards {
 
-// }
+.popular {
 
-.popular-list {
+    .carousel {
+        max-width: 85vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
     
-
     &-item {
 
-        text-align: center;
+        text-align: left;
         margin-top: 3rem;
         display: flex;
         justify-content: center;
         align-items: center;
         background-size: cover;
-
-
         position: relative;
-
 
 
         &__image {
             img {
-                max-width: 200px;
-                min-width: 100px;
+                max-width: 250px;
+                min-width: 150px;
                 width: 100%;
                 height: auto;
             }
-
-
         }
 
         &__info {
 
+            text-decoration: none;
+            display: inline-block;
+
+            h3 {
+                font-size: 1.3rem;
+                margin: 1px 10px 0 px;
+                color: #000;
+                
+            }
+
+            span {
+                margin: 0 0px 0 4px;
+            }
+
+
+            .rating-section {
+                display: flex;
+                // align-items: center;
+
+                span {
+                    margin: 6px 3px;
+
+
+                }
+            }
+
+            .rating {
+                position: relative;
+                top: 2px;
+                float: left;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    float: left;
+                    display: block;
+                    height: 16px;
+                    width: 16px;
+                    margin-left: 5px;
+                    background: url("https://designmodo.com/demo/ecommerce-css3/img/stars.png") no-repeat 0 0;
+
+                }
+
+                li.rated {
+                    background-position: 0px -16px;
+                }
+            }
         }
-
-
     }
 }

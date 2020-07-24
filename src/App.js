@@ -3,6 +3,9 @@ import logo from './img/logo.jpg';
 import hero from './img/baskets_hero.jpg';
 import maskgirl from './img/maskgirl_hero.png'
 import woodspoon from './img/wood_spoons.jpg'
+import Popular from '../src/Components/Popular'
+
+
 
 
 function App() {
@@ -43,7 +46,6 @@ function App() {
                 </a>
               </div>
             </div>
-
 
           </header>
           
@@ -253,11 +255,7 @@ function App() {
 
                 </span>
 
-
-
               </h3>
-
-
 
               <div className="feature-txt">
 
@@ -274,58 +272,6 @@ function App() {
           </div>
         </div>
 
-
-
-      </section>
-
-      <section className="popular">
-
-        <div className="popular-heading">
-          <h1>
-            Popular Items
-          </h1>
-        </div>
-
-        <div className="popular-cards">
-
-          <ul className="popular-list">
-
-            <li className="popular-list-item">
-
-              <a href="#">
-
-                <div className="popular-list-item__image">
-                  <img src={woodspoon} alt="wooden spoons"/>
-
-                </div>
-
-                <div className="popular-list-item__info">
-
-                  <span className="title">
-                    Wooden Spoon Set
-                  </span>
-                  <br/>
-                  <span className="vendor">
-                    Wooden Creations
-                  </span>
-                  <br/>
-                  <span className="stars"></span>
-
-
-                </div>
-
-              </a>
-
-            </li>
-
-          </ul>
-
-        </div>
-
-
-
-
-
       </section>
 
 
@@ -334,11 +280,7 @@ function App() {
 
 
 
-
-
-
-
-
+        <Popular />
 
     </div>
   );
