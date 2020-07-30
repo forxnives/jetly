@@ -1,9 +1,10 @@
 .popular-heading {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 
 .popular {
+
 
     .carousel {
         max-width: 85vw;
@@ -20,14 +21,36 @@
         align-items: center;
         background-size: cover;
         position: relative;
+        margin-bottom: 30px;
+
+        
+
+
+
 
 
         &__image {
+
+
+
             img {
                 max-width: 250px;
                 min-width: 150px;
                 width: 100%;
                 height: auto;
+                transition: all .2s ease;
+
+                &:hover {
+
+                   
+                    -webkit-box-shadow: 0px -1px 6px -1px rgba(0,0,0,0.74);
+                    -moz-box-shadow: 0px -1px 6px -1px rgba(0,0,0,0.74);
+                    box-shadow: 0px -1px 6px -1px rgba(0,0,0,0.74);
+
+
+                }
+
+
             }
         }
 
@@ -36,33 +59,40 @@
             text-decoration: none;
             display: inline-block;
 
-            h3 {
+            .title {
                 font-size: 1.3rem;
-                margin: 1px 10px 0 px;
+                font-weight: 400;
+                
+
                 color: #000;
                 
             }
 
-            span {
-                margin: 0 0px 0 4px;
+            .vendor {
+                font-size: 1rem;
+                // padding-bottom: 30px;
+                padding-top: 2px;
             }
 
 
             .rating-section {
+                
+                width: 100%;
                 display: flex;
-                // align-items: center;
+                align-items: center;
+                margin: 5px 0;
+                // justify-content: space-between;
 
                 span {
-                    margin: 6px 3px;
 
 
                 }
             }
 
             .rating {
-                position: relative;
-                top: 2px;
-                float: left;
+                // position: relative;
+                // top: 20px;
+                // float: left;
                 margin: 0;
                 padding: 0;
 
@@ -76,9 +106,25 @@
 
                 }
 
+                li:first-child {
+                    margin-left: 0;
+                }
+
                 li.rated {
                     background-position: 0px -16px;
                 }
+            }
+
+            .ratings {
+                padding: 3px 0px 0px 2px;
+
+            }
+
+
+            .price {
+                font-weight: bold;
+                font-size: 1.4rem;
+                color: black;
             }
         }
     }

@@ -1,9 +1,13 @@
 import React from 'react';
 import logo from './img/logo.jpg';
 import hero from './img/baskets_hero.jpg';
-import maskgirl from './img/maskgirl_hero.png'
-import woodspoon from './img/wood_spoons.jpg'
-import Popular from '../src/Components/Popular'
+import maskgirl from './img/maskgirl_hero.png';
+import woodspoon from './img/wood_spoons.jpg';
+import Popular from '../src/Components/Popular';
+import Gifts from '../src/Components/Gifts';
+import About from '../src/Components/About';
+import Footer from '../src/Components/Footer';
+
 
 
 
@@ -130,7 +134,7 @@ function App() {
       <section className="hero">
 
         <div className="heading-primary">
-          <h1>Authentic Jamaican Goods, sold by independant Jamaican vendors.  Welcome to Jetsy.</h1>
+          <h1>Authentic Jamaican Goods, sold by independant Jamaican vendors.  Welcome to Caribbean Hut.</h1>
         </div>
 
         <div className="hero-grid">
@@ -139,7 +143,7 @@ function App() {
 
             <div className="hero-grid-left__txt">
 
-              <h2>SOMETHING FOR FUCKS SAKE</h2>
+              <h2>Stay safe with our new mask collection</h2>
             </div>
 
             <img src={maskgirl} alt="baskets"/>
@@ -281,6 +285,15 @@ function App() {
 
 
         <Popular />
+
+        <Gifts />
+
+        <About />
+
+        <Footer />
+
+
+
 
     </div>
   );
