@@ -1,12 +1,15 @@
 import React from 'react';
 import logo from './img/logo.jpg';
-import hero from './img/baskets_hero.jpg';
-import maskgirl from './img/maskgirl_hero.png';
-import woodspoon from './img/wood_spoons.jpg';
+
+
+
+
+import Hero from '../src/Components/Hero';
 import Popular from '../src/Components/Popular';
 import Gifts from '../src/Components/Gifts';
 import About from '../src/Components/About';
 import Footer from '../src/Components/Footer';
+
 
 
 
@@ -131,41 +134,7 @@ function App() {
 
       </section>
 
-      <section className="hero">
-
-        <div className="heading-primary">
-          <h1>Authentic Jamaican Goods, sold by independant Jamaican vendors.  Welcome to Caribbean Hut.</h1>
-        </div>
-
-        <div className="hero-grid">
-
-          <div className="hero-grid-left">
-
-            <div className="hero-grid-left__txt">
-
-              <h2>Stay safe with our new mask collection</h2>
-            </div>
-
-            <img src={maskgirl} alt="baskets"/>
-
-
-          </div>
-
-          <div className="hero-grid-right">
-
-            <img src={hero} alt="" className="hero-grid-right-img__hide"/>
-
-            <div className="hero-grid-right__txt">
-            <h2 className="">Shop all things ready to ship</h2>
-
-            </div>
-
-          </div>
-
-        </div>
-
-
-      </section>
+      <Hero />
 
       <section className="features">
 
@@ -187,9 +156,7 @@ function App() {
                 <span className="feature-heading__txt">
                   One-of-a-kind
 
-
                 </span>
-
 
 
               </h3>
@@ -215,20 +182,14 @@ function App() {
 
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9.057,20.471L2.293,13.707a1,1,0,0,1,1.414-1.414l5.236,5.236,11.3-13.18a1,1,0,1,1,1.518,1.3Z"></path></svg>
 
-
                 </span>
 
                 <span className="feature-heading__txt">
                   Independant Sellers
 
-
                 </span>
 
-
-
               </h3>
-
-
 
               <div className="feature-txt">
 
