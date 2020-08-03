@@ -1,12 +1,7 @@
 import React from 'react';
 
 import hero from '../img/hero_couple.jpg';
-
-
 import maskgirl from '../img/maskgirl_hero.png';
-
-
-
 
 
 
@@ -23,25 +18,46 @@ const Hero = () => {
 
           <div className="hero-grid-left">
 
-            <div className="hero-grid-left__txt">
+            <a href="#" className="hero-grid-left__txt">
 
+              <div className="txt">
+                <span className="title">Our Biggest Export is</span>
+                {/* <div className="br"></div>                 */}
+                <span className="title2">Good Vibes</span>
+                <div className="br"></div>
+
+                <span className="sub-heading">Shop all ready-to-ship items</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -7 24 24" aria-hidden="true" focusable="false"><path d="M10,17a1,1,0,0,1-.707-1.707L12.586,12,9.293,8.707a1,1,0,0,1,1.414-1.414L15.414,12l-4.707,4.707A1,1,0,0,1,10,17Z"></path></svg>
                 
+              </div>
 
-              <h2>Our Main Export is Good Vibes</h2>
-            </div>
+            </a>
 
-            <img src={hero} alt="baskets"/>
+            <a href="#"><img src={hero} alt="baskets"/></a>
 
           </div>
 
           <div className="hero-grid-right">
 
-            <img src={maskgirl} alt="" className="hero-grid-right-img__hide"/>
 
-            <div className="hero-grid-right__txt">
-            <h2 className="">Stay Safe with our Mask Collection</h2>
 
-            </div>
+              <a href="#"><img src={maskgirl} alt="" className="hero-grid-right-img__hide"/></a>
+              
+              <a href="#" className="hero-grid-right__txt">
+                <div>
+                  <h2 className="">Stay Safe with our Mask Collection
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -7 24 24" aria-hidden="true" focusable="false"><path d="M10,17a1,1,0,0,1-.707-1.707L12.586,12,9.293,8.707a1,1,0,0,1,1.414-1.414L15.414,12l-4.707,4.707A1,1,0,0,1,10,17Z"></path></svg>
+                  </h2>
+
+
+                </div>
+
+              </a>
+
+              
+
+
+
 
           </div>
 

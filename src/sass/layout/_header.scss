@@ -6,7 +6,7 @@
     }
 
     &-lower {
-        margin-top: 2rem;
+        margin-top: 1rem;
 
     }
 }
@@ -40,7 +40,7 @@
     img {
         // width: 100px;
         height: auto;
-        max-width:70%;
+        max-width:50%;
         min-width: 50px;
 
         // height:auto;
@@ -64,8 +64,10 @@
 .hero-grid {
 
     display: flex;
+    // width: 80%;
 
     justify-content: center;
+
 
 
 
